@@ -5,7 +5,9 @@ import javax.swing.table.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class ContactManager extends JFrame {
 
@@ -80,9 +82,9 @@ public class ContactManager extends JFrame {
         phoneField = styledField("Phone number");
         emailField = styledField("Email address");
 
-        addBtn    = styledButton("Add Contact",    new Color(22, 163, 74),  Color.WHITE);
-        updateBtn = styledButton("Update Contact", new Color(37, 99, 235),  Color.WHITE);
-        deleteBtn = styledButton("Delete Contact", new Color(220, 38, 38),  Color.WHITE);
+        addBtn    = styledButton("Add Contact",    new Color(22, 163, 74),   Color.WHITE);
+        updateBtn = styledButton("Update Contact", new Color(37, 99, 235),   Color.WHITE);
+        deleteBtn = styledButton("Delete Contact", new Color(220, 38, 38),   Color.WHITE);
         clearBtn  = styledButton("Clear Fields",   new Color(100, 116, 139), Color.WHITE);
 
         updateBtn.setEnabled(false);
