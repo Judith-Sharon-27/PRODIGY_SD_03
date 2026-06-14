@@ -1,3 +1,6 @@
+//Use command prompt finally by typing this prompts in the place you saved and type the two commands
+//javac -encoding UTF-8 ContactManager.java
+//java ContactManager
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.event.*;
